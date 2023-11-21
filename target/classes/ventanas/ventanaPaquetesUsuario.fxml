@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="ventanaPaquetes" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.agencia.controller.VentanaPaquetesUsuario">
+    <children>
+      <TableView fx:id="tabPaquetesRegistrados" layoutY="123.0" prefHeight="475.0" prefWidth="1280.0">
+         <columns>
+            <TableColumn fx:id="columNombrePaquete" prefWidth="263.0" />
+            <TableColumn fx:id="columnDescripcion" minWidth="0.0" prefWidth="266.0" />
+            <TableColumn fx:id="columnServiciosAdicionales" minWidth="0.0" prefWidth="107.0" />
+            <TableColumn fx:id="columnPrecio" minWidth="0.0" prefWidth="134.0" />
+            <TableColumn fx:id="columnCupoMax" minWidth="0.0" prefWidth="112.0" />
+            <TableColumn fx:id="columnFechaInicio" minWidth="0.0" prefWidth="210.0" />
+            <TableColumn fx:id="columnFechaFin" minWidth="0.0" prefWidth="187.0" />
+            <TableColumn fx:id="columnGuia" minWidth="0.0" prefWidth="0.0" text="Column X" />
+         </columns>
+      </TableView>
+      <Button fx:id="btnReservar" layoutX="581.0" layoutY="615.0" mnemonicParsing="false" onAction="#reservarPaqueteEvent" prefHeight="45.0" prefWidth="119.0" style="-fx-background-color: black;" text="Reservar" textFill="WHITE">
+         <font>
+            <Font name="Nirmala UI Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="123.0" layoutY="615.0" mnemonicParsing="false" onAction="#volverEvent" prefHeight="45.0" prefWidth="98.0" style="-fx-background-color: black;" text="←" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>
