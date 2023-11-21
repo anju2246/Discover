@@ -1,0 +1,109 @@
+.botonSinFondo26px {
+
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-font-size: 22px;
+}
+.botonSinFondo26px:hover {
+    -fx-text-fill: #5a5a5a;
+    -fx-font-size: 22px;
+}
+.botonBlanco28px {
+    -fx-background-color: #ffffff; /* Establece el color de fondo blanco */
+    -fx-text-fill: #000000; /* Establece el color del texto negro */
+    -fx-font-size: 28px;
+
+}
+
+.botonBlanco28px:hover {
+    -fx-background-color: #cccccc; /* Cambia el color de fondo cuando el mouse pasa por encima */
+    -fx-font-size: 28px;
+}
+
+.botonSinFondo22px {
+
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-font-size: 22px;
+}
+
+.botonSinFondo22px:hover {
+    -fx-text-fill: #5a5a5a;
+    -fx-font-size: 22px;
+}
+
+.textoRegular {
+    -fx-font-family: 'Hitmo2.0-Regular';
+}
+
+.textoNegrita {
+    -fx-font-family: 'Hitmo2.0-Bold';
+}
+
+.textoLight {
+    -fx-font-family: 'Hitmo2.0-Light';
+}
+
+.textoBlack {
+    -fx-font-family: 'Hitmo2.0-Black';
+}
+
+.botonClick {
+    -fx-background-color: transparent;
+    -fx-border-color: black;
+    -fx-border-radius: 15; /* Ajusta el radio según tus preferencias */
+    -fx-border-width: 2; /* Ajusta el ancho del borde según tus preferencias */
+    -fx-text-fill: black;
+    -fx-font-size: 25px;
+}
+.text-field {
+    -fx-background-radius: 5; /* Ajusta el radio del borde */
+    -fx-border-radius: 5; /* Ajusta el radio del borde */
+    -fx-border-color: #CCCCCC; /* Cambia el color del borde */
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 10, 0, 0, 0);
+
+}
+
+.botonClick:hover {
+    -fx-background-color: rgba(0, 0, 0, 0.1); /* Cambia el color del fondo cuando el mouse pasa por encima */
+    -fx-font-size: 25px;
+}
+
+.botonSeleccionado {
+    -fx-background-color: rgba(0, 0, 0, 0.25); /* Cambia el color de fondo a gris */
+}
+.botonVolver:hover {
+    /* Puedes agregar efectos de hover si lo deseas */
+    -fx-opacity: 0.8; /* Por ejemplo, reducir la opacidad cuando el mouse está encima */
+}
+.inicioPane{
+    -fx-background-image:url(../imagenes/fondoInicio.png)
+}
+.RegistroPane{
+    -fx-background-image:url(../imagenes/ventanaRegistrarCliente.png)
+}
+
+.logoPane {
+    -fx-background-image:url(../imagenes/colombiaTravel.png)
+}
+
+.inicioSesionPane {
+    -fx-background-image:url(../imagenes/ventanaInicioSesion.png)
+}
+.menuUsuarioPane {
+    -fx-background-image:url(../imagenes/ventanaMenuUsuario.png)
+}
+.UsuarioPane {
+    -fx-background-image:url(../imagenes/ventanaUsuario.png)
+}
+.menuAdminPane {
+    -fx-background-image:url(../imagenes/menuAdmin.png)
+}
+.registroDestinosPane {
+    -fx-background-image:url(../imagenes/registroDestinos.png)
+}
+
+
+
+
+

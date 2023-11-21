@@ -4,26 +4,30 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
-public class AgenciaApp extends Application {
+public class App extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
 
-        FXMLLoader loader = new FXMLLoader( AgenciaApp.class.getResource("/inicio.fxml") );
+        FXMLLoader loader = new FXMLLoader(App.class.getResource("/ventanas/inicio.fxml"));
         Parent parent = loader.load();
 
         Scene scene = new Scene(parent);
         stage.setScene(scene);
-        stage.setTitle("Mi agencia");
+        stage.setTitle("Discover App");
+        Image icon = new Image(getClass().getResourceAsStream("/imagenes/colombiaTravelNegro.png"));
+        stage.getIcons().add(icon);
+        stage.setResizable(false);
         stage.show();
 
-    }
 
-    // Prueba
+    }
 
     public static void main(String[] args) {
-        launch( AgenciaApp.class, args );
+        launch(App.class, args);
     }
+
 }
